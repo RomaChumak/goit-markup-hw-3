@@ -19,6 +19,11 @@ ul {
   padding-left: 0;
   margin: 0;
 }
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -68,6 +73,7 @@ body {
 }
 .address {
   font-style: normal;
+  margin-left: auto;
 }
 .nav:hover,
 .nav:focus {
@@ -78,7 +84,7 @@ body {
   color: #404bbf;
 }
 .header {
-  border-bottom: 1px color#e7e9fc;
+  border-bottom: 1px solid#e7e9fc;
 }
 .header-nav {
   display: flex;
@@ -88,7 +94,6 @@ body {
   display: flex;
   gap: 40px;
   margin-left: 76px;
-  margin-right: 332px;
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -104,10 +109,11 @@ body {
 /*  hero */
 .hero {
   background: #2e2f42;
+  padding-top: 191px;
+  padding-bottom: 185px;
 }
 .hero-title {
   width: 496px;
-  padding-top: 191px;
   margin: auto;
   font-weight: 700;
   font-size: 56px;
@@ -129,24 +135,21 @@ body {
   color: #ffffff;
   background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
   cursor: pointer;
   padding-left: 32px;
   margin: auto;
+  margin-top: 48px;
 }
 .btn:hover,
 .btn:focus {
   background: #404bbf;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-.hero-btn {
-  padding-bottom: 185px;
-  margin-top: 48px;
-}
-
 /* section */
 .advantages {
   background-color: #ffffff;
+  padding-bottom: 120px;
+  padding-top: 120px;
 }
 .section-title {
   font-weight: 500;
@@ -163,8 +166,6 @@ body {
 }
 .section-list {
   display: flex;
-  padding-top: 159px;
-  padding-bottom: 120px;
   margin: auto;
 }
 
@@ -200,10 +201,11 @@ body {
 /* team */
 .team {
   background: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .team-title {
   margin-bottom: 72px;
-  padding-top: 120px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -230,7 +232,6 @@ body {
 }
 .team-list {
   display: flex;
-  padding-bottom: 120px;
 }
 .team-lis {
   margin: 0 24px 0 0;
@@ -268,8 +269,10 @@ body {
 }
 
 /* portfolio */
+.portfolio {
+  padding-top: 96px;
+}
 .portfolio-btn {
-  margin: 0 24px 0 0;
   padding: 12px 24px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -307,16 +310,12 @@ body {
   color: #434455;
 }
 .mune-btn {
-  width: 586px;
+  width: 597px;
   display: flex;
-  padding-top: 96px;
   padding-bottom: 72px;
   margin: auto;
 }
-.web-site {
-  width: 116px;
-  height: 48px;
-}
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
@@ -326,5 +325,11 @@ body {
 }
 .portfolio-blok {
   padding: 32px 0 32px 0;
-  border: 1px color#e7e9fc;
+  border: 1px solid#e7e9fc;
+}
+.portfolio-li {
+  margin-right: 24px;
+}
+.btn-marketing {
+  margin-right: 0;
 }
