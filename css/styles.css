@@ -2,10 +2,7 @@
   --contactscolor: #434455;
   --navcolor: #2e2f42;
 }
-.section {
-  padding-left: 156px;
-  padding-right: 156px;
-}
+
 p,
 h1,
 h2,
@@ -140,7 +137,7 @@ body {
   margin: auto;
   margin-top: 48px;
   border-radius: 4px;
-  border-color: #4d5ae5;
+  border: 1px solid#4d5ae5;
 }
 .btn:hover,
 .btn:focus {
@@ -290,7 +287,7 @@ body {
   color: #4d5ae5;
   background: #f4f4fd;
   border-radius: 4px;
-  border-color: #e7e9fc;
+  border: 1px solid#e7e9fc;
   cursor: pointer;
 }
 
